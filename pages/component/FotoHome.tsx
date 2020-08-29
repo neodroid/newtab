@@ -30,7 +30,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             flexDirection="row">
         
         <Flex w="600px" bg=""  >
-            <Box w="200px">
+            <Box w="200px" overflow="hidden">
             <img src="/kemad png.png"/>
             </Box>
            
@@ -60,8 +60,8 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
         >Lets Chat!</Flex>
 
         <Flex w="600px" bg="" flexDirection="row-reverse">
-        <Box w="200px">
-            {/* <img src="/saffan png.png"/> */}
+        <Box w="200px" overflow="hidden">
+            <img src="/saffan png.png"/>
             </Box>
         </Flex>
         
