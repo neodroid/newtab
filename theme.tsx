@@ -8,7 +8,7 @@ const colors = chakraTheme.colors;
 const fonts = {
   default: "Montserrat",
   heading:"Montserrat-Bold",
-  body: "Montserrat",
+  black: "Montserrat-Black",
   vsr: "Montserrat"
 
 };

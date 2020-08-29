@@ -7,7 +7,9 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
  
         return(
 
-            <Flex justifyContent="center" 
+            <Flex 
+            
+            justifyContent="center" 
             alignItems="center" 
             w="100%"  
             bgImage="url('/bekron2.png')"

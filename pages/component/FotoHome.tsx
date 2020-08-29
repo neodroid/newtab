@@ -13,7 +13,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover"
-          
+            
             >
            
              <Flex  mt="5" justifyContent="center" alignItems="center" width={[

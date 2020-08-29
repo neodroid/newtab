@@ -29,6 +29,16 @@ function App({ Component, pageProps, router }) {
 
             }
             @font-face {
+              
+              
+              {
+                font-family: 'Montserrat-Black';
+                src: url('/fonts/Montserrat-Black.ttf');
+              }
+              
+
+            }
+            @font-face {
               {
                 font-family: 'Montserrat-Bold';
                 src: url('/fonts/Montserrat-Bold.ttf');

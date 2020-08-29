@@ -7,7 +7,9 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
  
         return(
 
-            <Flex justifyContent="center" 
+            <Flex 
+            as="i"
+            justifyContent="center" 
             alignItems="center" 
             w="100%"  
             bgImage="url('/bekron2.png')"
@@ -17,7 +19,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             "xl", // base
             "xl", // 480px upwards
             "30px", // 768px upwards
-            "30px", // 992px upwards
+            "40px", // 992px upwards
         ]} 
             >
            
@@ -43,13 +45,13 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             >
                 
         
-        <Flex w="600px" bg=""  flexDirection="row-reverse" fontFamily="heading">
+        <Flex w="600px" bg=""  flexDirection="row-reverse" fontFamily="default">
             Clean Code Me
            
         </Flex>
 
 
-        <Flex w="600px" bg="" ml="" flexDirection="row" color="#F5F5F5" fontFamily="heading">
+        <Flex w="600px" bg="" ml="" flexDirection="row" color="#F5F5F5" fontFamily="default">
        ets Neat Design
         </Flex>
         

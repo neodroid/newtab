@@ -4,6 +4,8 @@ import FotoHome from './component/FotoHome'
 import JudulHome from './component/JudulHome'
 import LogoHome from './component/LogoHome'
 import NamaHome from './component/NamaHome'
+import Services from './component/services'
+import Whoweare from './component/whoweare'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <JudulHome/>
       <NamaHome/>
       <FotoHome/>
+      <Whoweare/>
+      <Services/>
     </div>
   )
 }
