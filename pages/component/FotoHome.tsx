@@ -61,7 +61,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
 
         <Flex w="600px" bg="" flexDirection="row-reverse">
         <Box w="200px">
-            <img src="/saffan png.png"/>
+            {/* <img src="/saffan png.png"/> */}
             </Box>
         </Flex>
         
