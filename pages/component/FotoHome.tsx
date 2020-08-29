@@ -50,12 +50,9 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             "20", // 480px upwards
             "", // 768px upwards
             "", // 992px upwards
-        ]} >
-        <Flex
+        ]} 
         bg="#10172A"
         borderWidth="3px"
-        
-       
         h="50px"
         color="#F5F5F5"
         justifyContent="center" alignItems="center"
@@ -66,8 +63,8 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             "200px", // 768px upwards
             "200px", // 992px upwards
         ]} 
-       
-        >Lets Chat!</Flex>
+        >
+        Lets Chat!
         </Button>
 
         <Flex w="600px" bg="" flexDirection="row-reverse">
