@@ -53,6 +53,8 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
         ]} 
         bg="#10172A"
         borderWidth="3px"
+        borderColor="#F5F5F5"
+        rounded="none"
         h="50px"
         color="#F5F5F5"
         justifyContent="center" alignItems="center"
