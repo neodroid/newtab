@@ -40,13 +40,13 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             "200px", // 480px upwards
             "200px", // 768px upwards
             "200px", // 992px upwards
-        ]}  overflow="hidden">
+        ]}  >
             <img src="/kemad png.png"/>
             </Box>
            
         </Flex>
         <Button  mb={[
-            "20", // base
+            "40", // base
             "20", // 480px upwards
             "", // 768px upwards
             "", // 992px upwards
@@ -76,7 +76,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             "200px", // 480px upwards
             "200px", // 768px upwards
             "200px", // 992px upwards
-        ]}  overflow="hidden">
+        ]} >
             <img src="/saffan png.png"/>
             </Box>
         </Flex>
