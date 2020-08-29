@@ -10,7 +10,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             <Flex justifyContent="center" 
             alignItems="center" 
             w="100%"  
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover"
             
@@ -24,26 +24,37 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             ]} 
             h='50px'
             // bg=""
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover" 
             flexDirection="row">
         
         <Flex w="600px" bg=""  flexDirection="row-reverse" justifyContent="center" 
-            alignItems="center" >
+            alignItems="center" 
+            fontSize={[
+                "md", // base
+                "md", // 480px upwards
+                "xl", // 768px upwards
+                "xl", // 992px upwards
+            ]} >
             <Box >
-            <Text>Kevin Ahmad</Text>
-           <Text>Full-Stack Developer</Text>
+            <Text fontFamily="heading" >Kevin Ahmad</Text>
+           <Text as="i">Full-Stack Developer</Text>
             </Box>
            
         </Flex>
 
 
         <Flex w="600px" bg="" ml="" flexDirection="row" color="#F5F5F5" justifyContent="center" 
-            alignItems="center"  textAlign="justify">
+            alignItems="center"  textAlign="justify" fontSize={[
+                "md", // base
+                "md", // 480px upwards
+                "xl", // 768px upwards
+                "xl", // 992px upwards
+            ]} >
         <Box >
-           <Text>Saffan Firdaus</Text>
-           <Text>UI / UX Designer</Text>
+           <Text fontFamily="heading"  >Saffan Firdaus</Text>
+           <Text as="i">UI / UX Designer</Text>
 
             </Box>
         </Flex>

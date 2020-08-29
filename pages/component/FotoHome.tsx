@@ -10,7 +10,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             <Flex justifyContent="center" 
             alignItems="center" 
             w="100%"  
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover"
            
@@ -24,7 +24,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             ]} 
             h='300px'
             bg="black"
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover" 
             flexDirection="row">
@@ -36,14 +36,28 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
            
         </Flex>
 
-        <Box
+        <Flex
         bg="#10172A"
         borderWidth="2px"
         borderColor="#F5F5F5"
-        w="200px"
+       
         h="50px"
         color="#F5F5F5"
-        >Lets Chat!</Box>
+        justifyContent="center" alignItems="center"
+        fontFamily="heading"
+        minW={[
+            "150px", // base
+            "200px", // 480px upwards
+            "200px", // 768px upwards
+            "200px", // 992px upwards
+        ]} 
+        mb={[
+            "20", // base
+            "20", // 480px upwards
+            "", // 768px upwards
+            "", // 992px upwards
+        ]} 
+        >Lets Chat!</Flex>
 
         <Flex w="600px" bg="" flexDirection="row-reverse">
         <Box w="200px">

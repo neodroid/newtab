@@ -10,13 +10,16 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             <Flex justifyContent="center" 
             alignItems="center" 
             w="100%"  
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover"
             
             >
            
-             <Flex justifyContent="center" alignItems="center" width={[
+             <Flex  
+            
+             alignItems="center" 
+             width={[
                 "100%", // base
                 "100%", // 480px upwards
                 "100%", // 768px upwards
@@ -24,11 +27,12 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             ]} 
             h='100px'
             // bg=""
-            bgImage="url('/bekron.png')"
+            bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover" 
             flexDirection="row">
-        
+        <Box w="50px" ml="10"
+        ><img src="/new tab polos.png"/></Box>
         
         
 
