@@ -13,7 +13,8 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             bgImage="url('/bekron2.png')"
             bgPos="center"
             bgSize="cover"
-            
+           
+           
             >
            
              <Flex  mt="5" justifyContent="center" alignItems="center" width={[
@@ -45,6 +46,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             </Box>
            
         </Flex>
+        <ChakraLink href=" https://wa.me/6281395098451?text=Halo!%20nama%20saya%20..." isExternal>
         <Button  mb={[
             "40", // base
             "20", // 480px upwards
@@ -68,7 +70,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
         >
         Lets Chat!
         </Button>
-
+        </ChakraLink>
         <Flex w="600px" bg="" flexDirection="row-reverse">
         <Box w={[
             "130px", // base
