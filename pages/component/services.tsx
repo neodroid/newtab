@@ -13,17 +13,29 @@ const MenuService = (props) => (
      borderColor="black"
      rounded="full"
      w={[
-        "70%", // base
-        "70%", // 480px upwards
+        "40%", // base
+        "40%", // 480px upwards
         "40%", // 768px upwards
         "30%", // 992px upwards
         
       ]}
-    
+    fontSize={[
+        "10px", // base
+        "sm", // 480px upwards
+        "xl", // 768px upwards
+        "xl", // 992px upwards
+        
+      ]}
    
      
       >
-          <Box bg="" w="100px" alignItems="center"  justifyContent="center" alignContent="center"> <img  src={props.img}/></Box>
+          <Box bg=""w={[
+        "50px", // base
+        "50px", // 480px upwards
+        "100px", // 768px upwards
+        "100px", // 992px upwards
+        
+      ]} alignItems="center"  justifyContent="center" alignContent="center"> <img  src={props.img}/></Box>
    <Box fontWeight="">  {props.text}</Box>
     
     </Flex>
