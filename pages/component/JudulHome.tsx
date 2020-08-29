@@ -8,6 +8,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
         return(
 
             <Flex 
+
             as="i"
             justifyContent="center" 
             alignItems="center" 
@@ -29,7 +30,8 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                 "100%", // 768px upwards
                 "1200px", // 992px upwards
             ]} 
-            my={[
+            
+            mb={[
                 "10", // base
                 "10", // 480px upwards
                 "", // 768px upwards

@@ -1,7 +1,21 @@
 import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
 import React from 'react'
 
-
+const MenuService = (props) => (
+    <Box mt={[
+      "5", // base
+      "5", // 480px upwards
+      "5", // 768px upwards
+      "0", // 992px upwards
+    ]}
+      textAlign="center"
+      mr={6} display="block"
+     
+      >
+    <img src={props.img}/>
+      {props.text}
+    </Box>
+  );
 
     const Services = () => {
  
@@ -47,36 +61,14 @@ import React from 'react'
                         color="black"
                         textAlign="center"
                         
-                    ><Text fontFamily="heading">Our Services</Text> </Box>
+                    ><Text fontFamily="heading">Our Services</Text> </Box><Text textAlign="center" mt="5"  fontSize={["xs", "xl"]}>
+                    Any type of website you need
+                </Text>
+                    
                
               <Flex flexDirection="row">
 
-            <Flex flexDirection="column" mx="3">
 
-            <Box 
-                        fontSize={["3rem", "4rem"]}
-                        fontWeight="bold"
-                        fontFamily="heading"
-                        color="black"
-                        textAlign="center"
-                        
-                    ><Text fontFamily="black">2</Text> </Box>
-                <Text textAlign="center"   fontSize={["xs", "xl"]}>
-               Clients   </Text>
-            </Flex>
-
-            <Flex flexDirection="column" mx="3">
-            <Box 
-                         fontSize={["3rem", "4rem"]}
-                        fontWeight="bold"
-                        fontFamily="heading"
-                        color="black"
-                        textAlign="center"
-                        
-                    ><Text fontFamily="black">3</Text> </Box>
-                <Text textAlign="center" fontSize={["xs", "xl"]}>
-                Projects   </Text>
-              </Flex>
             </Flex>
 
               
