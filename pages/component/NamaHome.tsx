@@ -41,7 +41,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
             ]} >
             <Box >
             <Text fontFamily="heading" >Kevin Ahmad</Text>
-           <Text as="i">Full-Stack Developer</Text>
+           <Text as="i">Full-Stuck Developer</Text>
             </Box>
            
         </Flex>

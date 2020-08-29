@@ -13,7 +13,7 @@ export default function Home() {
     <div >
       <Head>
         <title>This is New Tab</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/new tab polos.png" />
       </Head>
       <Header/>
       {/* <LogoHome/> */}

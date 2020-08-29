@@ -1,20 +1,32 @@
-import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
+import { Flex, Heading, Box, Button, Icon, Text, Stack } from '@chakra-ui/core'
 import React from 'react'
 
 const MenuService = (props) => (
-    <Box mt={[
-      "5", // base
-      "5", // 480px upwards
-      "5", // 768px upwards
-      "0", // 992px upwards
-    ]}
+    <Flex m="3"
+    shadow="xl"
       textAlign="center"
-      mr={6} display="block"
+      flexDirection="column"
+   bg="#F5F5F5"
+    alignItems="center"
+    justifyContent="center"
+     borderWidth=""
+     borderColor="black"
+     rounded="full"
+     w={[
+        "70%", // base
+        "70%", // 480px upwards
+        "40%", // 768px upwards
+        "30%", // 992px upwards
+        
+      ]}
+    
+   
      
       >
-    <img src={props.img}/>
-      {props.text}
-    </Box>
+          <Box bg="" w="100px" alignItems="center"  justifyContent="center" alignContent="center"> <img  src={props.img}/></Box>
+   <Box fontWeight="">  {props.text}</Box>
+    
+    </Flex>
   );
 
     const Services = () => {
@@ -66,15 +78,30 @@ const MenuService = (props) => (
                 </Text>
                     
                
-              <Flex flexDirection="row">
+               
+                <Flex flexDirection="row"
+          flexWrap="wrap"
+          bottom="0"
+          width="100%"
+          flex="1"
+          justifyContent="center"
+          py={2}>
+             <MenuService img="building.png" text="Company Profile"/>
+              <MenuService img="shop.png" text="Online Shop"/>
+              <MenuService img="personal.png" text="Personal Website"/>
+              <MenuService img="festival 1.png" text="Events"/>
+              <MenuService img="many.png" text="Many More"/>
 
+           
 
-            </Flex>
+  </Flex>
+            
 
               
 
               
                </Flex> 
+               
                 
         
         </Flex>
